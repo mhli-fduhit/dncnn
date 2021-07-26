@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="DnCNN.cpp" path="C:\Users\14641\Desktop\读博_材料\dncnn\DnCNN.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="C:\Users\14641\Desktop\读博_材料\dncnn\main.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

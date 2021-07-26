@@ -1,0 +1,75 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user '14641' on host 'laptop-iinr8dg7' (Windows NT_amd64 version 6.2) on Mon Jul 26 16:25:51 +0800 2021
+INFO: [HLS 200-10] In directory 'C:/Users/14641/Desktop/package_CNN/dncnn'
+Sourcing Tcl script 'C:/Users/14641/Desktop/package_CNN/dncnn/dncnn0/solution1_CNN0/csim.tcl'
+INFO: [HLS 200-10] Opening project 'C:/Users/14641/Desktop/package_CNN/dncnn/dncnn0'.
+INFO: [HLS 200-10] Opening solution 'C:/Users/14641/Desktop/package_CNN/dncnn/dncnn0/solution1_CNN0'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library 'D:/Xilinx/Vivado/2019.1/common/technology/xilinx/Virtex-7/Virtex-7.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/Virtex-7/Virtex-7'.
+INFO: [HLS 200-10] Setting target device to 'xc7vx485t-ffg1157-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../main.cpp in debug mode
+   Compiling ../../../../DnCNN.cpp in debug mode
+   Generating csim.exe
+In file included from D:/Xilinx/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Xilinx/Vivado/2019.1/include/hls_fpo.h:186,
+                 from D:/Xilinx/Vivado/2019.1/include/hls_half.h:44,
+                 from D:/Xilinx/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from D:/Xilinx/Vivado/2019.1/include/ap_common.h:641,
+                 from D:/Xilinx/Vivado/2019.1/include/ap_fixed.h:54,
+                 from ../../../../types.h:2,
+                 from ../../../../DnCNN.h:1,
+                 from ../../../../main.cpp:4:
+D:/Xilinx/Vivado/2019.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Xilinx/Vivado/2019.1/include/hls_fpo.h:186:0,
+                 from D:/Xilinx/Vivado/2019.1/include/hls_half.h:44,
+                 from D:/Xilinx/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from D:/Xilinx/Vivado/2019.1/include/ap_common.h:641,
+                 from D:/Xilinx/Vivado/2019.1/include/ap_fixed.h:54,
+                 from ../../../../types.h:2,
+                 from ../../../../DnCNN.h:1,
+                 from ../../../../main.cpp:4:
+D:/Xilinx/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+In file included from D:/Xilinx/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:143:0,
+                 from D:/Xilinx/Vivado/2019.1/include/hls_fpo.h:186,
+                 from D:/Xilinx/Vivado/2019.1/include/hls_half.h:44,
+                 from D:/Xilinx/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from D:/Xilinx/Vivado/2019.1/include/ap_common.h:641,
+                 from D:/Xilinx/Vivado/2019.1/include/ap_fixed.h:54,
+                 from ../../../../types.h:2,
+                 from ../../../../DnCNN.h:1,
+                 from ../../../../DnCNN.cpp:1:
+D:/Xilinx/Vivado/2019.1/include/gmp.h:62:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from D:/Xilinx/Vivado/2019.1/include/hls_fpo.h:186:0,
+                 from D:/Xilinx/Vivado/2019.1/include/hls_half.h:44,
+                 from D:/Xilinx/Vivado/2019.1/include/etc/ap_private.h:90,
+                 from D:/Xilinx/Vivado/2019.1/include/ap_common.h:641,
+                 from D:/Xilinx/Vivado/2019.1/include/ap_fixed.h:54,
+                 from ../../../../types.h:2,
+                 from ../../../../DnCNN.h:1,
+                 from ../../../../DnCNN.cpp:1:
+D:/Xilinx/Vivado/2019.1/include/floating_point_v7_0_bitacc_cmodel.h:135:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+cannot open weight file!@E Simulation failed: Function 'main' returns nonzero value '1'.
+ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+4
+    while executing
+"source C:/Users/14641/Desktop/package_CNN/dncnn/dncnn0/solution1_CNN0/csim.tcl"
+    invoked from within
+"hls::main C:/Users/14641/Desktop/package_CNN/dncnn/dncnn0/solution1_CNN0/csim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"

@@ -1,0 +1,106 @@
+INFO-FLOW: Workspace C:/Users/14641/Desktop/package_CNN/dncnn/dncnn0/solution1_CNN0 opened at Mon Jul 26 16:25:51 +0800 2021
+Execute     config_clock -quiet -name default -period 10 -default=false 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+WARNING: [HLS 200-40] Cannot find library 'D:/Xilinx/Vivado/2019.1/common/technology/xilinx/Virtex-7/Virtex-7.lib'.
+WARNING: [HLS 200-40] Cannot find library 'xilinx/Virtex-7/Virtex-7'.
+Execute     set_part xc7vx485tffg1157-1 
+Execute       ap_part_info -name xc7vx485tffg1157-1 -data single -quiet 
+Command       ap_part_info done; 1.116 sec.
+Execute       ap_part_info -name xc7vx485tffg1157-1 -data info 
+Execute       add_library xilinx/virtex7/virtex7:xc7vx485t:-ffg1157:-1 
+Execute         get_default_platform 
+Execute         license_isbetapart xc7vx485t 
+Command         license_isbetapart done; error code: 1; 
+Execute         open_platform DefaultPlatform 
+Execute         import_lib D:/Xilinx/Vivado/2019.1/common/technology/xilinx/virtex7/virtex7 
+Execute           source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.lib 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.lib 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/plb46.lib 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/fsl.lib 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/axi4.lib 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.lib 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.lib 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.lib 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/dds_compiler.lib 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfft.lib 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfir.lib 
+Execute           source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute           source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/virtex7/dsp48e1.hlp 
+Execute           source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute         source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/virtex7/virtex7.gen 
+Execute           source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/plb46.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/fsl.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/axi4.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/nativeAXI4.gen 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.gen 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/dds_compiler.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/util.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfft.gen 
+Command             ap_source done; 0.136 sec.
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/ip/xfir.gen 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.gen 
+Command           ap_source done; 0.209 sec.
+Command         ap_source done; 0.209 sec.
+Execute         ap_part_info -data single -name xc7vx485t-ffg1157-1 
+Execute         ap_part_info -name xc7vx485t-ffg1157-1 -data resources 
+Execute         ap_part_info -name xc7vx485t-ffg1157-1 -data info 
+Execute         ap_part_info -name xc7vx485t-ffg1157-1 -data info 
+Execute         config_chip_info -quiet -resource {SLICE 75900} {LUT 303600} {FF 607200} {DSP48E 2800} {BRAM 2060} {URAM 0} 
+Execute         ap_part_info -name xc7vx485t-ffg1157-1 -data info 
+Execute         config_chip_info -quiet -speed slow 
+Command       add_library done; 0.311 sec.
+Execute       add_library xilinx/virtex7/virtex7_fpv6 
+Execute         get_default_platform 
+Execute         open_platform DefaultPlatform 
+Execute         import_lib D:/Xilinx/Vivado/2019.1/common/technology/xilinx/virtex7/virtex7_fpv6 
+Execute           source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.lib 
+Execute           source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.hlp 
+Execute             source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx.hlp 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/target_info.tcl 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/xilinx_interface.hlp 
+Execute                 source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/maxi.hlp 
+Execute                 source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/interface/saxilite.hlp 
+Execute               source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/dsp48.hlp 
+Execute         source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/virtex7/virtex7_fpv6.gen 
+Execute           source D:/Xilinx/Vivado/2019.1/common/technology/xilinx/common/xilinx_fp.gen 
+INFO: [HLS 200-10] Setting target device to 'xc7vx485t-ffg1157-1'
+Execute       ap_part_info -name xc7vx485t-ffg1157-1 -data info 
+Execute       get_default_platform 
+Command     set_part done; 1.561 sec.
+Execute     ap_part_info -data single -name xc7vx485tffg1157-1 
+Execute     ap_part_info -name xc7vx485tffg1157-1 -data resources 
+Execute     ap_part_info -name xc7vx485tffg1157-1 -data info 
+Execute     ap_part_info -name xc7vx485tffg1157-1 -data info 
+Execute     config_chip_info -quiet -resource {SLICE 75900} {LUT 303600} {FF 607200} {DSP48E 2800} {BRAM 2060} {URAM 0} 
+Execute     ap_part_info -name xc7vx485tffg1157-1 -data info 
+Execute     config_chip_info -quiet -speed slow 
+Command   open_solution done; 1.609 sec.
+Execute   csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+Execute     is_encrypted C:/Users/14641/Desktop/package_CNN/dncnn/main.cpp 
+Execute     is_xip C:/Users/14641/Desktop/package_CNN/dncnn/main.cpp 
+Execute     is_encrypted C:/Users/14641/Desktop/package_CNN/dncnn/DnCNN.cpp 
+Execute     is_xip C:/Users/14641/Desktop/package_CNN/dncnn/DnCNN.cpp 
+Execute     ap_part_info -name xc7vx485tffg1157-1 -data info 
+Execute     source run_sim.tcl 
+Command     ap_source done; error code: 1; 3.767 sec.
+ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+Command   csim_design done; error code: 2; 25.739 sec.
+Command ap_source done; error code: 1; 27.359 sec.
+Execute cleanup_all 
